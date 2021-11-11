@@ -1,0 +1,220 @@
+body {
+  background-color: seagreen;
+  border-width: 2px;
+  border-style: solid;
+  border-color: teal;
+}
+main {
+  text-align: center; 
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+button {
+  height: 20px;
+  width: 100px;
+  font-size: 80%;
+}
+
+div#DatePlace {
+  background-color: green;
+  margin: 0px;
+  padding: 0%;
+  font-size: 100%;
+  text-align: center;
+}
+
+div#DatePlace>* {
+  margin: 0px;
+}
+
+div#TempAndSymbol>* {
+  background-color: lightblue;
+  margin: 0px;
+  padding: 1%;
+  font-size: 10vw ;
+  text-align: left;
+}
+
+div#TempAndSymbol>p>img {
+  margin: inherit;
+  padding: 0%;
+  width: 10vw;
+  height: 100%;
+  float: left;
+  vertical-align: bottom;
+
+}
+
+
+div#TempDesDiv>* {
+  background-color: green;
+  margin: 0px;
+  font-size: 3vw ;
+  text-align: center;
+}
+
+#NewResultMap {
+  height: 100% 50%;
+}
+
+
+.NRCont {
+  display: grid;
+  grid-template-columns: 50% 50%; 
+  grid-template-rows: 100%;
+  grid-column-gap: 0px;
+}
+
+.NRItem {
+/* background: #ce8888; */
+
+ 
+}
+
+
+
+
+.ORCont {
+  border-width: 2px;
+  border-style: solid ;
+  border-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.ORItem {
+  border-width: 2px;
+  border-style: solid ;
+  border-color: goldenrod;
+
+  display: grid;
+  /* grid-template-columns: 3fr 1fr; */
+  /* grid-template-rows: 5vw 5vw 5vw; */
+  align-items: center;
+
+ 
+}
+.ORItemItem>* {
+  margin: 0px;
+}
+
+
+div#OldDatePlace {
+  background-color: green;
+  grid-column-end: span 2;
+}
+div#OldDatePlace>* {
+  height: 1.5vw;
+  font-size: 1.5vw;
+}
+
+div#OldSymbol>img {
+  width: 8vw;
+}
+div#OldSymbol{
+  grid-row-end: span 2;
+}
+div#OldTemp>p {
+  background-color: lightblue;
+  font-size: 2vw;
+  margin: 0vw 0vw;
+}
+
+div#OldSave>* {
+  margin: 0px;
+  border-width: 2px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  font-size: 2vw;
+  
+}
+
+
+
+
+/*===========================*/
+
+
+.SRCont {
+  border-width: 2px;
+  border-style: solid ;
+  border-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.SRItem {
+  border-width: 2px;
+  border-style: solid ;
+  border-color: goldenrod;
+
+  display: grid;
+  /* grid-template-columns: 5fr; */
+  grid-template-rows: 5vw 5vw 5vw;
+  align-items: center;
+
+ 
+}
+.SRItemItem>* {
+  margin: 0px;
+}
+
+
+
+
+div#SavedDatePlace {
+  background-color: green;
+  /* grid-column-end: span 1; */
+}
+div#SavedDatePlace>* {
+  height: 1.5vw;
+  font-size: 1.5vw;
+}
+
+/* div#SavedSymbol>img {
+  width: 10vw;
+} */
+/* div#SavedSymbol{
+  grid-row-end: span 2;
+} */
+/* div#SavedTemp>p {
+  background-color: lightblue;
+  font-size: 4vw;
+  margin: 0vw 0vw;
+} */
+
+div#SavedRemove>* {
+  margin: 0px;
+  border-width: 2px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  font-size: 2vw;
+  
+}
+
+/* div#SavedReFetch{
+  grid-column-end: span 2;
+} */
+
+div#SavedReFetch>* {
+  margin: 0px;
+  border-width: 2px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 255, 55);
+  font-size: 2vw;
+  
+  
+}
+
+
+
